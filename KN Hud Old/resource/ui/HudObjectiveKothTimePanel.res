@@ -23,23 +23,13 @@
 		
 		if_match
 		{
-			"proportionaltoparent"	"1"
-			"xpos"					"cs-0.5"
-			"xpos_minmode"			"cs-0.5"
-			"ypos"					"0"
-			"ypos_minmode"			"0"
-			"delta_item_x"			"10"
-			"delta_item_start_y"	"12"
-			"delta_item_end_y"		"50"
-			"PositiveColor"			"0 255 0 255"
-			"NegativeColor"			"255 0 0 255"
-			"delta_lifetime"		"1.5"
-			"delta_item_font"		"HudFontMediumSmall"
+			"xpos"			"c-43"
+			"ypos"			"8"
 		}
 		
 		"TimePanelValue"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"chippyBold14"
 			"fgcolor"		"75 175 255 255"
@@ -50,23 +40,12 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"		"center"
+			"textAlignment"	"center"
 			"labelText"		"0:00"
 			
 			if_match
 			{
-				"proportionaltoparent"	"1"
-
-				"xpos"			"c-37"
-				"xpos_minmode"	"c-37"
-				"ypos"			"12"
-				"ypos_minmode"	"12"
-				"tall"			"10"
-				"wide"			"35"
-				"wide_minmode"	"35"
-				"font"			"chippyMedium12"
-				"font_minmode"	"chippyMedium12"
-				"font_lodef"	"chippyMedium12"
+				"font"		"chippyMedium12"
 			}
 		}	
 	}
@@ -85,23 +64,13 @@
 		
 		if_match
 		{
-			"proportionaltoparent"	"1"
-			"xpos"					"cs-0.5"
-			"xpos_minmode"			"cs-0.5"
-			"ypos"					"0"
-			"ypos_minmode"			"0"
-			"delta_item_x"			"50"
-			"delta_item_start_y"	"12"
-			"delta_item_end_y"		"50"
-			"PositiveColor"			"0 255 0 255"
-			"NegativeColor"			"255 0 0 255"
-			"delta_lifetime"		"1.5"
-			"delta_item_font"		"HudFontMediumSmall"
+			"xpos"			"c-9"
+			"ypos"			"8"
 		}
 		
 		"TimePanelValue"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"chippyBold14"
 			"fgcolor"		"255 0 75 255"
@@ -112,23 +81,12 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"		"center"
+			"textAlignment"	"center"
 			"labelText"		"0:00"
 			
 			if_match
 			{
-				"proportionaltoparent"	"1"
-
-				"xpos"			"35"
-				"xpos_minmode"	"35"
-				"ypos"			"12"
-				"ypos_minmode"	"12"
-				"wide"			"35"
-				"wide_minmode"	"35"
-				"tall"			"10"
-				"font"			"chippyMedium12"
-				"font_minmode"	"chippyMedium12"
-				"font_lodef"	"chippyMedium12"
+				"font"		"chippyMedium12"
 			
 			}
 		}	
