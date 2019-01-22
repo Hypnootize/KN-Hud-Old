@@ -1,3 +1,4 @@
+#base "../resource/crosshairs/Crosshair Fonts.res"
 //
 // TRACKER SCHEME RESOURCE FILE
 //
@@ -488,6 +489,17 @@ Scheme
 			"outline"	"1"
 			}
 		}
+		"MavenProRegular10"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Regular"
+			"tall"		"10"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
 		"MavenProRegular12"
 		{
 			"1"
@@ -930,17 +942,6 @@ Scheme
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
 			"antialias"	"1"
-			}
-		}
-		"Xhair"
-		{
-			"1"
-			{
-			"name"		"Courier"
-			"tall"		"20"
-			"weight"	"0"
-			"range"		"0x0000 0x017F"
-			"outline"	"1"
 			}
 		}
 		"Default"
@@ -6221,22 +6222,23 @@ Scheme
 				"range" "0x0000 0xFFFF"
 			}
 		}
-		"7"
+		"7" "resource/ocra.ttf"
+		"8"
 		{
 			"font" "resource/MavenPro-Regular.ttf"
 			"name" "Maven Pro Regular"
 		}
-		"8"
+		"9"
 		{
 			"font" "resource/MavenPro-Medium.ttf"
 			"name" "Maven Pro Medium"
 		}
-		"9"
+		"10"
 		{
 			"font" "resource/MavenPro-Bold.ttf"
 			"name" "Maven Pro Bold"
 		}
-		"10"
+		"11"
 		{
 			"font" "resource/MavenPro-Black.ttf"
 			"name" "Maven Pro Black"

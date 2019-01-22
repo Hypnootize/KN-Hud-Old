@@ -257,7 +257,7 @@
 			{
 				"0"		"MavenProRegular12"
 				"1"		"MavenProRegular12"
-				"2"		"MavenProRegular12"
+				"2"		"MavenProRegular10"
 			}
 		}
 
@@ -292,7 +292,7 @@
 			{
 				"0"		"MavenProRegular12"
 				"1"		"MavenProRegular12"
-				"2"		"MavenProRegular12"
+				"2"		"MavenProRegular10"
 			}
 
 			"colors"

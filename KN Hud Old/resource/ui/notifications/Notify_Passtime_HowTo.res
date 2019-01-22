@@ -1,4 +1,4 @@
-"Resource/UI/notifications/base_notification.res"
+"Resource/UI/notifications/notify_passtime_howto.res"
 {
 	"Notification_Background"
 	{
@@ -11,9 +11,9 @@
 		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../hud/score_panel_blue_bg"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/notification_black"
 		"scaleImage"	"1"
 	}
 	
@@ -21,33 +21,32 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"Notification_Icon"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"-5"
+		"ypos"			"45"
 		"wide"			"0"
 		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"scaleImage"	"1"	
-		"icon"			"ico_notify_sixty_seconds"
+		"icon"			"passtime_ball"
 	}
 	
 	"Notification_Label"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"Notification_Label"
-		"font"		"Default"
-		"xpos"		"30"
-		"ypos"		"9"
-		"wide"		"200"
-		"tall"		"20"
+		"font"			"Default"
+		"xpos"			"30"
+		"ypos"			"27"
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"60 seconds until gates open"
-		"textAlignment"	"West"
+		"labelText"		"#TF_Passtime_HowToPlay"
+		"textAlignment"	"North-West"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor_override" "255 255 255 255"
 	}
 }

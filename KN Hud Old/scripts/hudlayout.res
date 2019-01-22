@@ -1,31 +1,6 @@
+#base "../scripts/Crosshairs/crosshairs.res"
 "Resource/HudLayout.res"
 {
-	"xHairSlashLT"
-	{
-		"ControlName" "ImagePanel"
-		"fieldName" "ClassShade"
-		"xpos" "c-4"
-		"ypos" "c-1"
-		"zpos" "-1"
-		"wide"	 "8"
-		"tall" "2"
-		"visible" "0"
-		"enabled" "1"
-		"fillcolor" "0 0 0 100"
-	}
-	"xHairSlashLB"
-	{
-		"ControlName" "ImagePanel"
-		"fieldName" "ClassShade"
-		"xpos" "c-1"
-		"ypos" "c-4"
-		"zpos" "-1"
-		"wide"	 "2"
-		"tall" "8"
-		"visible" "0"
-		"enabled" "1"
-		"fillcolor" "0 0 0 100"
-	}
 	HudPlayerStatus
 	{
 		"fieldName" "HudPlayerStatus"
@@ -119,13 +94,12 @@
 	HudBowCharge
 	{
 		"fieldName"		"HudBowCharge"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"c-62"	[$WIN32]
-		"ypos"			"99999"	[$WIN32]
-		"zpos"			"1"			// draw in front of ammo
-		"wide"			"120"
-		"tall"			"8"
+		"visible"		"0"
+		"enabled"		"0"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"0"
+		"tall"			"0"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -815,6 +789,7 @@
 		"enabled"				"1"
 		"xpos"					"c-150"//c-150
 		"ypos"					"r200"
+		"zpos"					"20"
 		"wide"					"300"//300
 		"tall"					"215"
 	}
@@ -827,32 +802,29 @@
 		"enabled"				"1"
 		"xpos"					"c-225"
 		"ypos"					"250"
+		"zpos"					"20"
 		"wide"					"450"
 		"tall"					"218"
 	}
 	StatPanel
 	{
 		"fieldName"				"StatPanel"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"c-140" //"c-133"
-		"xpos_lodef"			"c-190"
-		"ypos"					"300"
-		"ypos_lodef"			"250"
-		"wide"					"20" //"290"
-		"wide_lodef"			"400"
-		"tall"					"10" //"200"
-		"tall_lodef"			"190"
+		"visible"				"0"
+		"enabled"				"0"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"0"
+		"tall"					"0"
 	}
 	FreezePanel
 	{
 		"fieldName"				"FreezePanel"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"-60"
-		"ypos"					"100"
-		"wide"					"f0"
-		"tall"					"480"
+		"visible"				"0"
+		"enabled"				"0"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"0"
+		"tall"					"0"
 	}
 
 	FreezePanelCallout
@@ -914,6 +886,7 @@
 		"enabled" 		"1"
 		"xpos"			"c-125"
 		"ypos"			"r150"
+		"zpos"			"20"
 		"wide"			"450"
 		"tall"			"195" 
 		"PaintBackgroundType"	"0"
@@ -926,6 +899,7 @@
 		"enabled" 		"1"
 		"xpos"			"c-125"
 		"ypos"			"r150"
+		"zpos"			"20"
 		"wide"			"450"
 		"tall"			"195"
 		"PaintBackgroundType"	"0"
@@ -938,6 +912,7 @@
 		"enabled" 		"1"
 		"xpos"			"c-125"
 		"ypos"			"r190"
+		"zpos"			"20"
 		"wide"			"250"
 		"tall"			"195"
 		"PaintBackgroundType"	"0"
@@ -951,8 +926,8 @@
 		"xpos"			"c-190"
 		"ypos"			"r190"
 		"wide"			"470"
+		"zpos"			"20"
 		"tall"			"200"	[$WIN32]
-		"tall"			"180"	[$X360]
 		"PaintBackgroundType"	"0"
 	}	
 	
@@ -974,25 +949,24 @@
 	HudTeamGoal
 	{
 		"fieldName"				"HudTeamGoal"
-		"visible"				"0" //"1"
-		"enabled"				"1"
-		"xpos"					"c-160"
-		"ypos"					"65"
-		"ypos_lodef"			"75"
-		"wide"					"0" //"320"
-		"tall"					"0" //"100"
+		"visible"				"0"
+		"enabled"				"0"
+		"xpos"					"0"
+		"ypos"					"0"
+		"ypos_lodef"			"0"
+		"wide"					"0"
+		"tall"					"0"
 	}
 
 
 	HudTeamGoalTournament
 	{
 		"fieldName"				"HudTeamGoalTournament"
-		"visible"				"0" //"1"
-		"enabled"				"1"
-		"xpos"					"c-160"
-		"ypos"					"15"
-		"ypos_lodef"			"75"
-		"wide"					"320"
+		"visible"				"0"
+		"enabled"				"0"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"0"
 		"tall"					"0"
 	}
 
@@ -1011,15 +985,13 @@
 
 	HudArenaNotification
 	{
-		"fieldName"				"HudArenaNotification"
-		"visible"				"0"
-		"enabled"				"1"
-		"xpos"					"c-160"
-		"ypos"					"75"
-		"ypos_hidef"				"90"
-		"ypos_lodef"				"90"
-		"wide"					"320"
-		"tall"					"150"
+		"fieldName"		"HudArenaNotification"
+		"visible"		"0"
+		"enabled"		"0"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"0"
+		"tall"			"0"
 	}
 
 	HudArenaCapPointCountdown
@@ -1052,7 +1024,7 @@
 		"enabled"				"1"
 		"xpos"					"c-125"
 		"ypos"					"-15"
-		"ypos_lodef"				"75"
+		"zpos"					"20"
 		"wide"					"250"
 		"tall"					"80"
 	}
@@ -1317,6 +1289,7 @@
 		"enabled"				"1"
 		"xpos"					"c-150"
 		"ypos"					"220"
+		"zpos"					"20"
 		"wide"					"0"		//300
 		"tall"					"215"
 	}
@@ -1375,8 +1348,7 @@
 		"enabled" 		"1"
 		"xpos"			"c-235"
 		"ypos"			"r200"
-		"ypos_hidef"	"c-42"
-		"ypos_lodef"	"c-42"
+		"zpos"			"20"
 		"wide"			"470"
 		"tall"			"200"
 		"PaintBackgroundType"	"0"

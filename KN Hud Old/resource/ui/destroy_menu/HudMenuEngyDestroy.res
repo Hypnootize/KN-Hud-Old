@@ -134,23 +134,23 @@
 	
 	"DestroyBG"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"DestroyBG"
 		"xpos"			"1"
 		"xpos_hidef"	"14"
 		"ypos"			"9"
 		"zpos"			"0"
 		"wide"			"248"
-		"tall"			"69"
+		"tall"			"84"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_brown"
+		"image"			"../hud/tournament_panel_brown"
 		"src_corner_height"	"23"				// pixels inside the image
 		"src_corner_width"	"23"
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_width"	"1"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"1"	
 		"scaleImage"		"1"
 	}
 	

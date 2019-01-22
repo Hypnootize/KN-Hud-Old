@@ -20,6 +20,19 @@
 		"team2_player_delta_y"				"18"
 		"teams_player_delta_x_comp"			"45"
 		
+		if_competitive
+		{
+			"team1_player_base_y"			"50"
+		}
+		if_readymode
+		{
+			"team1_player_base_y"			"50"
+		}
+		if_mvm
+		{
+			"team1_player_base_y"			"70"
+		}
+		
 		"playerpanels_kv"
 		{
 			"visible"		"0"
@@ -48,7 +61,7 @@
 				"ypos"				"25"
 				"wide"			"48"
 				"textAlignment"		"center"
-				"font"				"chippyBlack8"
+				"font"				"DefaultverySmall"
 			}
 			
 			"classimage"
@@ -145,7 +158,7 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
 				"font"			"DefaultSmall"
-				"xpos"			"30"
+				"xpos"			"9999"
 				"ypos"			"16"
 				"zpos"			"5"
 				"wide"			"23"
@@ -163,7 +176,7 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamount"
 				"font"			"DefaultSmall"
-				"xpos"			"25"
+				"xpos"			"9999"
 				"ypos"			"17"
 				"zpos"			"6"
 				"wide"			"25"
@@ -181,7 +194,7 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"specindex"
 				"font"			"DefaultVerySmall"
-				"xpos"			"4"
+				"xpos"			"9999"
 				"ypos"			"2"
 				"zpos"			"5"
 				"wide"			"50"
@@ -198,14 +211,14 @@
 	
 	"HudTournamentBG"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"HudTournamentBG"
-		"xpos"			"c-125"
-		"ypos"			"0"
+		"xpos"			"c-120"
+		"ypos"			"35"
 		"zpos"			"-1"
-		"wide"			"250"
-		"tall"			"40"
-		"autoResize"		"0"
+		"wide"			"240"
+		"tall"			"22"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
@@ -269,7 +282,7 @@
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"HudTournamentBLUEBG"
 		"xpos"			"c-120"
-		"ypos"			"10"
+		"ypos"			"30"
 		"zpos"			"-1"
 		"wide"			"120"
 		"tall"			"16"
@@ -304,7 +317,7 @@
 		"fieldName"		"TournamentBLUELabel"
 		"font"			"chippyMedium8"
 		"xpos"			"c-113"
-		"ypos"			"11"
+		"ypos"			"31"
 		"zpos"			"1"
 		"wide"			"65"
 		"tall"			"15"
@@ -336,7 +349,7 @@
 		"fieldName"		"TournamentBLUEStateLabel"
 		"font"			"chippyBold10"
 		"xpos"			"c-69"
-		"ypos"			"11"
+		"ypos"			"31"
 		"zpos"			"1"
 		"wide"			"65"
 		"tall"			"15"
@@ -368,7 +381,7 @@
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"HudTournamentREDBG"
 		"xpos"			"c0"
-		"ypos"			"10"
+		"ypos"			"30"
 		"zpos"			"-1"
 		"wide"			"120"
 		"tall"			"16"
@@ -403,7 +416,7 @@
 		"fieldName"		"TournamentREDLabel"
 		"font"			"chippyMedium8"
 		"xpos"			"c50"
-		"ypos"			"11"
+		"ypos"			"31"
 		"zpos"			"1"
 		"wide"			"65"
 		"tall"			"15"
@@ -435,7 +448,7 @@
 		"fieldName"		"TournamentREDStateLabel"
 		"font"			"chippyBold10"
 		"xpos"			"c5"
-		"ypos"			"11"
+		"ypos"			"31"
 		"zpos"			"1"
 		"wide"			"65"
 		"tall"			"15"
@@ -468,7 +481,7 @@
 		"font"			"chippyMedium8"
 		"fgcolor"		"White"
 		"xpos"			"c-42"
-		"ypos"			"29"
+		"ypos"			"47"
 		"zpos"			"1"
 		"wide"			"250"
 		"tall"			"35"
@@ -482,9 +495,12 @@
 		
 		if_competitive
 		{
-			"visible"	"0"
+			"ypos"		"40"
 		}
-		
+		if_readymode
+		{
+			"ypos"		"40"
+		}
 		if_mvm
 		{
 			"visible"	"0"
@@ -495,7 +511,7 @@
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TournamentConditionBG"
 		"xpos"			"9999999"
-		"ypos"			"33"
+		"ypos"			"53"
 		"zpos"			"-1"
 		"wide"			"169"
 		"tall"			"15"
@@ -527,7 +543,7 @@
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"HudTournamentBGHelp"
 		"xpos"			"c-125"
-		"ypos"			"38"
+		"ypos"			"58"
 		"zpos"			"-1"
 		"wide"			"250"
 		"tall"			"17"
@@ -563,7 +579,7 @@
 		"fieldName"		"TournamentInstructionsLabel"
 		"font"			"TFFontSmall"
 		"xpos"			"c-125"
-		"ypos"			"65"
+		"ypos"			"60"
 		"wide"			"250"
 		"tall"			"10"
 		"zpos"			"1"
@@ -575,9 +591,17 @@
 		"labelText"		"#Tournament_Instructions"
 		"textAlignment"		"center"
 		
+		if_competitive
+		{
+			"ypos"		"75"
+		}
+		if_readymode
+		{
+			"ypos"		"75"
+		}
 		if_mvm
 		{
-			
+			"ypos"		"95"
 		}
 	}
 	

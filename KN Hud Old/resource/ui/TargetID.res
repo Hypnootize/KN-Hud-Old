@@ -164,46 +164,47 @@
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"		"HudOffWhite"
 	}
+	"KillAnchor"
+	{
+		"ControlName"				"EditablePanel"
+		"fieldName"					"KillAnchor"
+		"xpos"						"-3"
+		"ypos"						"16"
+		"wide"						"8"
+		"tall"						"8"
+		"visible"					"1"
+		"enabled"					"1"
+	}
+	
+	"KillStreakIcon"
+	{
+		"ControlName"				"ImagePanel"
+		"fieldName"					"KillStreakIcon"
+		"xpos"						"0"
+		"ypos"						"0"
+		"zpos"						"12"
+		"wide"						"9"
+		"tall"						"9"
+		"visible"					"0"
+		"enabled"					"1"
+		"image"						"../hud/leaderboard_streak"
+		"scaleImage"				"1"
+		
+		"pin_to_sibling" 			"KillAnchor"
+		"pin_corner_to_sibling" 	"1"
+		"pin_to_sibling_corner" 	"1"
+	}
+	
 	"MoveableSubPanel"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"MoveableSubPanel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-5"
-		"wide"			"300"
-		"tall"			"100"
-		"visible"		"1"
-		"enabled"		"1"	
-
-		"MoveableBG"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"MoveableBG"
-			"xpos"			"28"
-			"ypos"			"23"
-			"zpos"			"0"
-			"wide"			"17"
-			"tall"			"8"
-			"visible"		"1"
-			"enabled"		"1"
-			"fillColor"		"MoveableBG"
-			"scaleImage"	"1"
-		}
-		"MoveableSymbolIcon"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"MoveableSymbolIcon"
-			"xpos"			"30"
-			"ypos"			"23"
-			"zpos"			"12"
-			"wide"			"14"
-			"tall"			"7"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"../hud/eng_sel_item_movable"
-			"drawcolor"		"MoveableIcon"
-			"scaleImage"	"1"
-		}
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"0"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"	
 	}
 }
