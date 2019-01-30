@@ -116,11 +116,6 @@
 
 				"draw_corner_width"	"3"				// screen size of the corners ( and sides ), proportional
 				"draw_corner_height" 	"3"
-
-				if_mvm
-				{
-//					"visible"		"1"
-				}
 			}
 
 			"ReadyImage"
@@ -138,11 +133,6 @@
 				"enabled"		"1"
 				"image"			"hud/checkmark"
 				"scaleImage"		"1"
-
-				if_mvm
-				{
-					"visible"		"1"
-				}
 			}
 			"respawntime"
 			{
